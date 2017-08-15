@@ -16,6 +16,8 @@ public class Slack {
         case unableToCreateURL
     }
     
+    public init() {}
+    
     /** Posts a message to a Slack chat room
      *
      * - Parameters:
