@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FC023E41F43077D003BB8F3 /* SlackApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC023E21F43077D003BB8F3 /* SlackApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FC023EE1F4307C6003BB8F3 /* SlackApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC023E21F43077D003BB8F3 /* SlackApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FC023F91F4307D1003BB8F3 /* SlackApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC023E21F43077D003BB8F3 /* SlackApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FC024011F430817003BB8F3 /* Slack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC024001F430817003BB8F3 /* Slack.swift */; };
 		1FC024021F430817003BB8F3 /* Slack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC024001F430817003BB8F3 /* Slack.swift */; };
 		1FC024031F430817003BB8F3 /* Slack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC024001F430817003BB8F3 /* Slack.swift */; };
@@ -17,7 +14,6 @@
 
 /* Begin PBXFileReference section */
 		1FC023DF1F43077D003BB8F3 /* SlackApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlackApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC023E21F43077D003BB8F3 /* SlackApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlackApi.h; sourceTree = "<group>"; };
 		1FC023E31F43077D003BB8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC023F31F4307C6003BB8F3 /* SlackApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlackApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC023FE1F4307D1003BB8F3 /* SlackApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlackApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +66,6 @@
 		1FC023E11F43077D003BB8F3 /* SlackApi */ = {
 			isa = PBXGroup;
 			children = (
-				1FC023E21F43077D003BB8F3 /* SlackApi.h */,
 				1FC023E31F43077D003BB8F3 /* Info.plist */,
 				1FC024001F430817003BB8F3 /* Slack.swift */,
 			);
@@ -84,7 +79,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC023E41F43077D003BB8F3 /* SlackApi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +86,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC023EE1F4307C6003BB8F3 /* SlackApi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +93,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC023F91F4307D1003BB8F3 /* SlackApi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +492,7 @@
 				1FC023E91F43077D003BB8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC023F01F4307C6003BB8F3 /* Build configuration list for PBXNativeTarget "SlackApi-macOS" */ = {
 			isa = XCConfigurationList;
